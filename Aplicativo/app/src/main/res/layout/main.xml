@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Gyroscope"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvGiroX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="axis X: " />
+
+    <TextView
+        android:id="@+id/tvGiroY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="axis Y: " />
+
+    <TextView
+        android:id="@+id/tvGiroZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="axis Z: " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Accelerometer"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAcelX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="axis X: " />
+
+    <TextView
+        android:id="@+id/tvAcelY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="axis Y: " />
+
+    <TextView
+        android:id="@+id/tvAcelZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="axis Z: " />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timestamp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="--" />
+
+    <Button
+        android:id="@+id/btStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
